@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
+    <title>Upcycling</title>
+</head>
+
+<body class="bg-[#FAF5EF]">
+    <header class="bg-[#48583B] p-3  flex items-center justify-between max-w-full w-full">
+        <div class="flex items-center gap-8">
+            <img src="./images/RetasifyLogo.svg" alt="Retasify Logo" class="h-12 w-auto bg-white p-2 px-8 rounded-full ml-2 md:ml-20">
+            <!-- <div class="w-auto bg-[#EAEFD7] p-2 px-10 rounded-tl-[225px] rounded-br-[225px] rounded-tr-[25px] rounded-bl-[25px] ml-5 md:ml-20 border-2 border-[#99A57C]">
+                <img src="./images/RetasifyLogo.svg" alt="Retasify Logo" class="h-12 w-auto content-center">
+            </div> -->
+            
+            <nav class="hidden lg:flex items-center gap-6 ml-5">
+                <a href="#" class="text-white hover:text-[#F4B840] transition-colors text-lg">Categories</a>
+                <a href="#" class="text-white hover:text-[#F4B840] transition-colors text-lg">Donate/Pickup</a>
+                <a href="#" class="text-white hover:text-[#F4B840] transition-colors text-lg">Upcycle</a>
+            </nav>
+        </div>
+        
+        <div class="flex-1 max-w-md mx-8">
+            <div class="relative">
+                <input type="text" placeholder="Search keywords" 
+                       class="w-full pl-4 pr-10 py-2 border border-gray-300 rounded-full text-sm outline-none bg-white">
+                <i class="fas fa-search absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+            </div>
+        </div>
+        
+        <div class="flex items-center gap-3 hidden lg:flex">
+            <!-- <button class="p-2 text-white hover:text-[#F4B840] transition-colors px-2 py-2">
+                <img src="./images/history.png" alt="Clock" class="w-6 h-6 ">
+            </button>
+            <button class="p-2 text-white hover:text-[#F4B840] transition-colors px-2 py-2">
+                <img src="./images/favorite.png" alt="Shopping Bag" class="w-7 h-7 ">
+            </button>
+            <button class="p-2 text-white hover:text-[#F4B840] transition-colors px-2 py-2">
+                <img src="./images/notifications_unread.png" alt="Notifications" class="w-7 h-7 ">
+            </button> -->
+            <div class="flex">
+                <a href="#" class="bg-[#F4B840] text-white px-6 py-2 rounded-full hover:bg-[#D1630E] transition-colors text-sm font-medium" id="sign-in-btn">Sign In</a>
+            </div>
+            <!-- <button class="p-2 text-white hover:text-[#F4B840] transition-colors px-2 py-2">
+                <img src="./images/user.png" alt="User Profile" class="w-7 h-7 ">
+            </button> -->
+        </div>
+        <button class="text-white hover:text-[#F4B840] transition-colors p-2 flex lg:hidden" id="burger-menu">
+            <div>
+        <button class="relative group flex lg:hidden">
+            <div class="relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all bg-transparent duration-200">
+                <div class="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden group-focus:-translate-y-1.5 group-focus:-rotate-90">
+                    <div class="bg-white h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:rotate-[42deg] group-focus:w-2/3 delay-150"></div>
+                    <div class="bg-white h-[2px] w-7 rounded transform transition-all duration-300 group-focus:translate-x-10"></div>
+                    <div class="bg-white h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:-rotate-[42deg] group-focus:w-2/3 delay-150"></div>
+                </div>
+            </div>
+        </button>
+    </div>
+        </button>
+    </header>
+</body>
+</html>
